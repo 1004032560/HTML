@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="marquee测试">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,15 +29,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workSpace/day0415/work01/img" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0415\work01" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day03\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day03" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0415\work01\img" />
       <recent name="E:\1.soft\JavaSE\HTML\week02" />
       <recent name="E:\1.soft\JavaSE\HTML\week01\day06" />
       <recent name="E:\1.soft\JavaSE\HTML\week01\day05" />
@@ -69,7 +70,7 @@
       <updated>1586867371335</updated>
       <workItem from="1586867372583" duration="382000" />
       <workItem from="1586922692125" duration="111000" />
-      <workItem from="1586922828342" duration="7862000" />
+      <workItem from="1586922828342" duration="13797000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586931985782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加小图标">
+      <created>1586947317469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586947317469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="marquee测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="marquee测试" />
+    <MESSAGE value="添加小图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加小图标" />
   </component>
 </project>
