@@ -74,7 +74,7 @@
       <workItem from="1586922692125" duration="111000" />
       <workItem from="1586922828342" duration="13888000" />
       <workItem from="1586996648759" duration="4356000" />
-      <workItem from="1587007511136" duration="6475000" />
+      <workItem from="1587007511136" duration="7577000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586999207904</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="常用标签">
+      <created>1587019918495</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587019918496</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +151,7 @@
     <MESSAGE value="无序列表和有序列表" />
     <MESSAGE value="body属性" />
     <MESSAGE value="hr标签属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="hr标签属性" />
+    <MESSAGE value="常用标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="常用标签" />
   </component>
 </project>

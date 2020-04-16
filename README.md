@@ -182,11 +182,31 @@
 
 311、有序列表
 
-
+~~~~html
+<ul>
+    <li>数码</li>
+    <ul>
+        <li>笔记本</li>
+        <li>手机</li>
+        <li>电脑</li>
+    </ul>
+    <li>美容</li>
+    <li>服装</li>
+</ul>
+~~~~
 
 3.12、无序列表
 
-
+~~~html
+<ol>
+    <li>确认购物</li>
+    <li>付款</li>
+    <li>确认收货</li>
+    <li>付款</li>
+    <li>付款给商家</li>
+    <li>双方评价</li>
+</ol>
+~~~
 
 3.13、定义列表（图文混排）
 
@@ -197,8 +217,6 @@
     <dt>图片</dt>
 </dl>
 ~~~
-
-
 
 3.14、`float` 属性：浮动
 
@@ -235,7 +253,37 @@
 <s>原价：￥1888</s>
 ~~~
 
-3.21、
+3.21、空格
+
+3.22、版权
+
+### 4、表格
+
+表格：行和列组成
+
+作用：显示数据
+
+
+
+~~~html
+<table border="1" cellspacing="5" cellpadding="0" width="500px" height="200px" align="center" bgcolor="blue">
+    <!-- 行 -->
+    <tr align="center">
+        <!-- 列 -->
+        <td colspan="2">测试</td>
+        <td rowspan="2">测试</td>
+    </tr>
+    <tr align="center">
+        <td>测试</td>
+        <td>测试</td>
+    </tr>
+    <tr align="center">
+        <td>测试</td>
+        <td>测试</td>
+        <td>测试</td>
+    </tr>
+</table>
+~~~
 
 
 
