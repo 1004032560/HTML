@@ -70,7 +70,8 @@
       <updated>1586867371335</updated>
       <workItem from="1586867372583" duration="382000" />
       <workItem from="1586922692125" duration="111000" />
-      <workItem from="1586922828342" duration="13797000" />
+      <workItem from="1586922828342" duration="13888000" />
+      <workItem from="1586996648759" duration="2119000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -86,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586947317469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="个人简历">
+      <created>1586954197552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586954197552</updated>
+    </task>
+    <task id="LOCAL-00004" summary="无序列表和有序列表">
+      <created>1586954228420</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586954228420</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -106,6 +123,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="marquee测试" />
     <MESSAGE value="添加小图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加小图标" />
+    <MESSAGE value="个人简历" />
+    <MESSAGE value="无序列表和有序列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="无序列表和有序列表" />
   </component>
 </project>
