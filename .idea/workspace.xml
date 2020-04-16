@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week01/day03/hr标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/week01/day03/hr标签.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <workItem from="1586867372583" duration="382000" />
       <workItem from="1586922692125" duration="111000" />
       <workItem from="1586922828342" duration="13888000" />
-      <workItem from="1586996648759" duration="2119000" />
+      <workItem from="1586996648759" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -101,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586954228420</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="body属性">
+      <created>1586999146495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586999146495</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hr标签属性">
+      <created>1586999207904</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586999207904</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +140,8 @@
     <MESSAGE value="添加小图标" />
     <MESSAGE value="个人简历" />
     <MESSAGE value="无序列表和有序列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="无序列表和有序列表" />
+    <MESSAGE value="body属性" />
+    <MESSAGE value="hr标签属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="hr标签属性" />
   </component>
 </project>
