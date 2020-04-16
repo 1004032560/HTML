@@ -40,7 +40,7 @@
 
 2.5、HTML 注释：`<!-- 注释内容 -->`
 
-### 3、HTML 标签
+### 3、HTML 标签和属性
 
 3.1、`<head>` 标签
 
@@ -185,6 +185,57 @@
 
 
 3.12、无序列表
+
+
+
+3.13、定义列表（图文混排）
+
+~~~html
+<!-- 定义列表（图文混排） -->
+<dl>
+    <dd>描述信息</dd>
+    <dt>图片</dt>
+</dl>
+~~~
+
+
+
+3.14、`float` 属性：浮动
+
+`float` 属性值：`left` 元素向左浮动；`right` 元素向右浮动；`none` 默认值，元素不浮动，并会显示在其文本中出现的位置
+
+3.15、`clear` 属性：清除浮动
+
+`clear` 属性值：`left` 在左侧不允许浮动元素；`right` 在右侧不允许浮动元素；`both` 在左右两侧不允许浮动元素；`none` 默认值，允许浮动出现在元素左右两侧
+
+3.16、元素的外边距：`margin`、`margin-top`、`margin-left`、`margin-right`、`margin-bottom`
+
+当前元素和外围的元素之间的间隔
+
+3.17、元素的内边距：`padding`、`padding-top`、`padding-left`、`margin-right`、`margin-bottom`
+
+当前元素和内部嵌套元素之间的间隔
+
+3.18、`<video>` 标签在 `HTML5` 中，专门用于视频资源的播放
+
+`<video>` 标签的属性：`controls` 控制面板；`autoplay` 自动播放；`loop` 循环播放
+
+3.19、`<audio>` 标签在 `HTML5` 中，专门用于音频资源的播放
+
+`<audio>` 标签的属性：`controls` 控制面板；`autoplay` 自动播放；`loop` 循环播放
+
+3.20、其他标签
+
+~~~html
+<b>加粗内容</b><br />
+<strong>加粗内容</strong><br />
+<i>倾斜内容</i><br />
+<u>下划线</u><br />
+<s>删除</s><br />
+<s>原价：￥1888</s>
+~~~
+
+3.21、
 
 
 
