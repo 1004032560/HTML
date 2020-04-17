@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,8 @@
       <workItem from="1586922692125" duration="111000" />
       <workItem from="1586922828342" duration="13888000" />
       <workItem from="1586996648759" duration="4356000" />
-      <workItem from="1587007511136" duration="20809000" />
+      <workItem from="1587007511136" duration="20925000" />
+      <workItem from="1587086538020" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -139,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587032036796</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="表格表单练习">
+      <created>1587042125460</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587042125460</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +177,7 @@
     <MESSAGE value="常用标签" />
     <MESSAGE value="表格" />
     <MESSAGE value="表单" />
-    <option name="LAST_COMMIT_MESSAGE" value="表单" />
+    <MESSAGE value="表格表单练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="表格表单练习" />
   </component>
 </project>
