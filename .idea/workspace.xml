@@ -15,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XHTML File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -31,6 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/workSpace/day0416/work03" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +78,7 @@
       <workItem from="1586922828342" duration="13888000" />
       <workItem from="1586996648759" duration="4356000" />
       <workItem from="1587007511136" duration="20925000" />
-      <workItem from="1587086538020" duration="3320000" />
+      <workItem from="1587086538020" duration="7774000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -204,7 +206,35 @@
       <option name="project" value="LOCAL" />
       <updated>1587090583519</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="按钮">
+      <created>1587092727112</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587092727112</updated>
+    </task>
+    <task id="LOCAL-00020" summary="date">
+      <created>1587092751129</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587092751129</updated>
+    </task>
+    <task id="LOCAL-00021" summary="搜索框">
+      <created>1587092815657</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1587092815657</updated>
+    </task>
+    <task id="LOCAL-00022" summary="说明文档">
+      <created>1587092838851</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1587092838851</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +270,10 @@
     <MESSAGE value="复选框" />
     <MESSAGE value="文件上传" />
     <MESSAGE value="下拉列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="下拉列表" />
+    <MESSAGE value="按钮" />
+    <MESSAGE value="date" />
+    <MESSAGE value="搜索框" />
+    <MESSAGE value="说明文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="说明文档" />
   </component>
 </project>

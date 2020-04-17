@@ -44,8 +44,6 @@
 
 3.1、`<head>` 标签
 
-
-
 ~~~~html
 <!-- 设置网页编码格式 -->
 <meta charset="UTF-8">
@@ -69,8 +67,6 @@
 <title>我的 第2个页面</title>
 ~~~~
 
-
-
 3.2、`<body>` 标签
 
 * 背景：`background` 设置网页的背景图
@@ -93,11 +89,7 @@
 
 * `align`取值范围：`left` 居左；`right` 居右；`center` 居中；`justify`：两端对齐
 
-
-
 3.4、`<br/>` 换行标签
-
-
 
 3.5、`<hr/> `分割线
 
@@ -109,15 +101,11 @@
 
 * `align` 属性：设置对齐方式
 
-
-
 3.6、`<p></p>` 段落
 
 * 作用：定义段落
 
 * 属性：`align` 设置段落文字的水平对齐
-
-
 
 3.7、`<img>` 图片
 
@@ -133,8 +121,6 @@
 * `align` 属性：设置周围文本对齐方式；（`bottom` 默认的；`middle`；`top`）
 * `align` 属性：使图片浮动到段落的左边或者是右边；（`left`；`right`）
 
-
-
 3.8、`font` 定义字符
 
 * 作用：定义字符的相关样式
@@ -143,8 +129,6 @@
 * `size` 属性：字号，最大为 `7`，大于 `7` 全部按 `7` 号显示
 * **在 `HTML 4.01` 中，`font` 元素不被赞成使用。**
 * **在 `XHTML 1.0 Strict DTD` 中，`font` 元素不被支持。**
-
-
 
 3.9、`<a></a>` 超链接
 
@@ -168,8 +152,6 @@
 <a href="#top">返回顶部</a>
 ~~~
 
-
-
 3.10、`<span></span>`标签
 
 * 范围标签：显示某行内的独特样式
@@ -177,8 +159,6 @@
 ~~~html
 <p>手机<span style="color:red;font-size:36px;">￥100</span>元一部</p>
 ~~~
-
-
 
 311、有序列表
 
@@ -220,27 +200,27 @@
 
 3.14、`float` 属性：浮动
 
-`float` 属性值：`left` 元素向左浮动；`right` 元素向右浮动；`none` 默认值，元素不浮动，并会显示在其文本中出现的位置
+* `float` 属性值：`left` 元素向左浮动；`right` 元素向右浮动；`none` 默认值，元素不浮动，并会显示在其文本中出现的位置
 
 3.15、`clear` 属性：清除浮动
 
-`clear` 属性值：`left` 在左侧不允许浮动元素；`right` 在右侧不允许浮动元素；`both` 在左右两侧不允许浮动元素；`none` 默认值，允许浮动出现在元素左右两侧
+* `clear` 属性值：`left` 在左侧不允许浮动元素；`right` 在右侧不允许浮动元素；`both` 在左右两侧不允许浮动元素；`none` 默认值，允许浮动出现在元素左右两侧
 
-3.16、元素的外边距：`margin`、`margin-top`、`margin-left`、`margin-right`、`margin-bottom`
+3.16、当前元素和外围的元素之间的间隔
 
-当前元素和外围的元素之间的间隔
+* 元素的外边距：`margin`、`margin-top`、`margin-left`、`margin-right`、`margin-bottom`
 
-3.17、元素的内边距：`padding`、`padding-top`、`padding-left`、`margin-right`、`margin-bottom`
+3.17、当前元素和内部嵌套元素之间的间隔
 
-当前元素和内部嵌套元素之间的间隔
+* 元素的内边距：`padding`、`padding-top`、`padding-left`、`margin-right`、`margin-bottom`
 
 3.18、`<video>` 标签在 `HTML5` 中，专门用于视频资源的播放
 
-`<video>` 标签的属性：`controls` 控制面板；`autoplay` 自动播放；`loop` 循环播放
+* `<video>` 标签的属性：`controls` 控制面板；`autoplay` 自动播放；`loop` 循环播放
 
 3.19、`<audio>` 标签在 `HTML5` 中，专门用于音频资源的播放
 
-`<audio>` 标签的属性：`controls` 控制面板；`autoplay` 自动播放；`loop` 循环播放
+* `<audio>` 标签的属性：`controls` 控制面板；`autoplay` 自动播放；`loop` 循环播放
 
 3.20、其他标签
 
@@ -308,21 +288,49 @@
 
 5.2、文本框
 
+标签：`<input type="text">`
+
+属性： `name`，`value`，`size`（文本框的长度），`maxlength`（文本框可填写的字数），`readonly`（只读）`placehoder`（占位符，提示信息），`required`（表单提交时的非空验证）
+
 5.3、密码框
 
-5.4、单选框
+标签：`<input type="password">`
 
-5.5、复选框
+属性： `name`，`value`，`size`，`maxlength`，`readonly`，`placehoder`
+
+5.5、单选框和复选框
+
+标签：`<input type="radio">`；`<input type="checkbox">`
+
+属性： `name`，`value`，`checked`（默认选择），`disabled`（不可选）
 
 5.6、文件输入框
 
+标签：`<input type="file">`
+
+注意：当含有上传域时要设置编码方式为 `enctype="multipart/form-data`
+
+~~~html
+<form action="#" method="post" enctype="multipart/form-data">
+		请选择您要上传的文件：<input type="file" />
+</form>
+~~~
+
 5.7、多行文本框（文本域）
+
+标签：`<textarea></textarea>`
+
+属性： `name`，`rows`，`cols`，`readonly`
 
 5.8、下拉列表
 
+`<select>` 的属性：`name`（名称必须一直），`size`（显示的行数），`multiple`（可以多选）
+
+`<option>` 的属性：`value`（值必须写——传递给服务器的值），`selected`（默认选择）
+
 5.9、按钮
 
-* 系统按钮、提交、重置、自定义按钮
+* 提交、重置、自定义按钮
 
 ~~~html
 <input type="submit" value="注册" /><br />
@@ -337,6 +345,97 @@
 ~~~html
 <input type="hidden" name="ip" value="192.168.70.200"/>
 ~~~
+
+5.11、只读和禁用属性
+
+* `readonly`：希望某个框内的内容只允许用户看，不能修改
+* `disabled`：因没达到使用的条件，限制用户使用
+
+5.12、`HTML5` 新的表单元素
+
+* `date`：用于日期选择的表单域，支持日期，月份
+
+* `search`：用于显示一个输入搜索关键字的表单
+
+* `number`：用于包含数字值的输入字段；可以设置可接受数字的限制。
+* `range`：显示为滑块
+* `color`：用于输入颜色的表单
+
+### 6、CSS3 样式
+
+6.1、样式表
+
+* 行内样式
+
+~~~html
+<h2 style="color: cornflowerblue">广袤无垠的宇宙</h2>
+~~~
+
+* 内部样式
+
+~~~html
+<style type="text/css">
+</style>
+~~~
+
+* 外部样式
+
+~~~html
+<link rel="stylesheet" href="css/样式表.css">
+~~~
+
+6.2、选择器
+
+* 基本选择器：
+  * 标签选择器（适合所有标签名相同的标签）
+  * 类选择器（适合所有类名相同的标签）
+  * `id` 选择器（适合所有 `id` 相同的标签）
+
+优先级：`id` 选择器 > `class` 选择器 > 标签选择器
+
+~~~html
+<style type="text/css">
+    /*标签选择器*/
+    h1{	color: red;	}
+    /*class类选择器*/
+    .CSS{	color: pink;	}
+    /*id选择器*/
+    #h123{	color: darkolivegreen;	}
+    #h456{	color: orange;	}
+    #h789{	color: darkcyan;	}
+</style>
+~~~
+
+* 复合选择器：
+
+  * 交集选择器
+
+  ~~~html
+  <style type="text/css">
+      /*只让h1标签下CSS类的颜色改变*/
+      h1.CSS{		color: pink;	}
+  </style>
+  ~~~
+
+  * 并集选择器
+
+  ~~~html
+  <style type="text/css">
+      /*只让h1,h2,h3标签下的颜色改变*/
+      h1,h2,h3{		color: pink;	}
+  </style>
+  ~~~
+
+  * 后代选择器
+
+  ~~~html
+  <style type="text/css">
+       /*只让div标签下子标签的颜色改变*/
+       #div1 h2{	color: orange;	}
+  </style>
+  ~~~
+
+6.3、字体
 
 
 
