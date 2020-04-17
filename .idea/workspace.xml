@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/week01/day05/03-单选框.html" beforeDir="false" afterPath="$PROJECT_DIR$/week01/day05/03-单选框.html" afterDir="false" />
-    </list>
+    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <workItem from="1586922828342" duration="13888000" />
       <workItem from="1586996648759" duration="4356000" />
       <workItem from="1587007511136" duration="20925000" />
-      <workItem from="1587086538020" duration="1590000" />
+      <workItem from="1587086538020" duration="1858000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -168,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587090076957</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="单选框">
+      <created>1587090156828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587090156828</updated>
+    </task>
+    <task id="LOCAL-00015" summary="文本框属性">
+      <created>1587090352094</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587090352094</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +213,7 @@
     <MESSAGE value="多行文本框" />
     <MESSAGE value="下拉列表" />
     <MESSAGE value="单选框" />
-    <option name="LAST_COMMIT_MESSAGE" value="单选框" />
+    <MESSAGE value="文本框属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="文本框属性" />
   </component>
 </project>
