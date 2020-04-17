@@ -1,0 +1,18 @@
+/*标签选择器*/
+h1{
+    color: red;
+}
+/*class类选择器*/
+.CSS{
+    color: pink;
+}
+/*id选择器*/
+#h123{
+    color: darkolivegreen;
+}
+#h456{
+    color: orange;
+}
+#h789{
+    color: darkcyan;
+}
