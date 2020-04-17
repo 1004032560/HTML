@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week01/day05/02.下拉列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week01/day05/03-单选框.html" beforeDir="false" afterPath="$PROJECT_DIR$/week01/day05/03-单选框.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,19 +33,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day05" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work07\img" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work02" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work06\img" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day04\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work03" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day04\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0415\work01\img" />
       <recent name="E:\1.soft\JavaSE\HTML\week02" />
       <recent name="E:\1.soft\JavaSE\HTML\week01\day06" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work07\img" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work02" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work06\img" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day04\img" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0415\work01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,7 +75,7 @@
       <workItem from="1586922828342" duration="13888000" />
       <workItem from="1586996648759" duration="4356000" />
       <workItem from="1587007511136" duration="20925000" />
-      <workItem from="1587086538020" duration="1433000" />
+      <workItem from="1587086538020" duration="1590000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587089972539</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="单选框">
+      <created>1587090076957</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587090076957</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +200,7 @@
     <MESSAGE value="表格表单练习" />
     <MESSAGE value="多行文本框" />
     <MESSAGE value="下拉列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="下拉列表" />
+    <MESSAGE value="单选框" />
+    <option name="LAST_COMMIT_MESSAGE" value="单选框" />
   </component>
 </project>
