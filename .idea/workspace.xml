@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week02/day01/09.div+css布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/week02/day01/09.div+css布局.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
       <workItem from="1587007511136" duration="20925000" />
       <workItem from="1587086538020" duration="15215000" />
       <workItem from="1587169839859" duration="3025000" />
-      <workItem from="1587348598933" duration="10609000" />
+      <workItem from="1587348598933" duration="13189000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -284,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587354062590</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="div+css布局">
+      <created>1587365435817</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1587365435817</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +336,7 @@
     <MESSAGE value="div+css复合选择器" />
     <MESSAGE value="CSS样式" />
     <MESSAGE value="CSS样式-定位" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS样式-定位" />
+    <MESSAGE value="div+css布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="div+css布局" />
   </component>
 </project>
