@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div+css布局</title>
+    <link rel="icon" href="img/木星.SVG.svg">
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #container{
+            width: 100%;
+        }
+        #header{
+            width: 100%;
+            height: 100px;
+            background-color: orange;
+        }
+        #main {
+            width: 80%;
+            height: 200px;
+            margin: 0 auto;
+            margin-top: 20px;
+            background-color: black;
+        }
+        #footer{
+            width: 100%;
+            height: 100px;
+            margin-top: 20px;
+            background-color: powderblue;
+        }
+        #left{
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-color: darkorchid;
+        }
+        #right{
+            width: 50%;
+            height: 200px;
+            float: left;
+            background-color: yellow;
+        }
+        #logo{
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-left: 150px;
+            background-color: dodgerblue;
+        }
+        .li{
+            float: left;
+            margin-left: 50px;
+            line-height: 100px;
+            /*margin-top: 50px;*/
+        }
+        /* 未单击访问的样式 */
+        a:link{ color: black; }
+        /* 点击访问之后的样式 */
+        a:visited{ color: blue; }
+        /* 鼠标悬停 */
+        a:hover{ color: red; }
+        /* 鼠标点击超链接没有释放的时候 */
+        a:active{ color: yellow; }
+    </style>
+</head>
+<body>
+
+<!-- 布局采用div+css -->
+<!-- 容器的开始 -->
+<div id="container">
+    <!-- 头部的开始 -->
+    <div id="header">
+        <div id="logo">
+            <img src="#" alt="#">
+        </div>
+        <div id="button">
+            <ul style="list-style: none;">
+                <!-- list - style none 去除默认值 -->
+                <li class="li"><a href="#">秒杀</a></li>
+                <li class="li"><a href="#">优惠券</a></li>
+                <li class="li"><a href="#">PLUS会员</a></li>
+                <li class="li"><a href="#">品牌闪购</a></li>
+                <li class="li"><a href="#">京东家电</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部的主体 -->
+    <div id="main">
+        <div id="left"></div>
+        <div id="right"></div>
+    </div>
+    <!-- 头部的结束 -->
+    <div id="footer"></div>
+</div>
+<!-- 容器的结束 -->
+
+</body>
+</html>

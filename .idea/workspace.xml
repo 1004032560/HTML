@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week02/day01/06.绝对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/week02/day01/06.绝对定位.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,24 +30,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/workSpace/day04017" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week02/day01/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\img" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work03" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day04\img" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0415\work01\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017\Test" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day05" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work07\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work02" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work06\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work03" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day04\img" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0415\work01\img" />
-      <recent name="E:\1.soft\JavaSE\HTML\week02" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,7 +79,7 @@
       <workItem from="1587007511136" duration="20925000" />
       <workItem from="1587086538020" duration="15215000" />
       <workItem from="1587169839859" duration="3025000" />
-      <workItem from="1587348598933" duration="5298000" />
+      <workItem from="1587348598933" duration="10609000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587352532443</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="CSS样式-定位">
+      <created>1587354062590</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1587354062590</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +327,7 @@
     <MESSAGE value="div布局" />
     <MESSAGE value="div+css复合选择器" />
     <MESSAGE value="CSS样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS样式" />
+    <MESSAGE value="CSS样式-定位" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS样式-定位" />
   </component>
 </project>
