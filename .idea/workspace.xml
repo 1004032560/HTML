@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="" />
+    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +36,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例\img" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017\Test" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day05" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work07\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work03" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day04\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0415\work01\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017\Test" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day05" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work07\img" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work02" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work06\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,6 +81,7 @@
       <workItem from="1587086538020" duration="15215000" />
       <workItem from="1587169839859" duration="3025000" />
       <workItem from="1587348598933" duration="13226000" />
+      <workItem from="1587429705971" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -296,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587391199274</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="div+css布局案例">
+      <created>1587429868526</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1587429868526</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +327,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="marquee测试" />
     <MESSAGE value="添加小图标" />
     <MESSAGE value="个人简历" />
     <MESSAGE value="无序列表和有序列表" />
@@ -341,6 +351,7 @@
     <MESSAGE value="CSS样式" />
     <MESSAGE value="CSS样式-定位" />
     <MESSAGE value="div+css布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="div+css布局" />
+    <MESSAGE value="div+css布局案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="div+css布局案例" />
   </component>
 </project>
