@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,22 +33,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/week02/day02" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day02" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例\img" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017\Test" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day05" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day02" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0416\work03" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day04\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day02" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例\img" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017\Test" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week01\day05" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,7 +81,8 @@
       <workItem from="1587086538020" duration="15215000" />
       <workItem from="1587169839859" duration="3025000" />
       <workItem from="1587348598933" duration="13226000" />
-      <workItem from="1587429705971" duration="10735000" />
+      <workItem from="1587429705971" duration="11544000" />
+      <workItem from="1587461308168" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -329,7 +329,49 @@
       <option name="project" value="LOCAL" />
       <updated>1587434528320</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="JS-数据类型">
+      <created>1587460507571</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1587460507571</updated>
+    </task>
+    <task id="LOCAL-00037" summary="JS-数据类型转换">
+      <created>1587460528875</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1587460528875</updated>
+    </task>
+    <task id="LOCAL-00038" summary="JS-检测数据类型">
+      <created>1587460547042</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1587460547042</updated>
+    </task>
+    <task id="LOCAL-00039" summary="JS-构造原型">
+      <created>1587460582011</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1587460582011</updated>
+    </task>
+    <task id="LOCAL-00040" summary="JS-闭包">
+      <created>1587460597849</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1587460597849</updated>
+    </task>
+    <task id="LOCAL-00041" summary="JS-Math方法">
+      <created>1587460620521</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1587460620521</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,12 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="body属性" />
-    <MESSAGE value="hr标签属性" />
-    <MESSAGE value="常用标签" />
-    <MESSAGE value="表格" />
-    <MESSAGE value="表单" />
-    <MESSAGE value="表格表单练习" />
     <MESSAGE value="多行文本框" />
     <MESSAGE value="单选框" />
     <MESSAGE value="文本框属性" />
@@ -374,6 +410,12 @@
     <MESSAGE value="JS-弹出对话框" />
     <MESSAGE value="JS-document的write操作" />
     <MESSAGE value="JS-三种引入方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS-三种引入方式" />
+    <MESSAGE value="JS-数据类型" />
+    <MESSAGE value="JS-数据类型转换" />
+    <MESSAGE value="JS-检测数据类型" />
+    <MESSAGE value="JS-构造原型" />
+    <MESSAGE value="JS-闭包" />
+    <MESSAGE value="JS-Math方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="JS-Math方法" />
   </component>
 </project>
