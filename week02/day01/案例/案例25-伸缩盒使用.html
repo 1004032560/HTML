@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style> 
+    div>div{
+        width:100px;
+        height:100px;
+        border:1px solid;
+        margin:10px;
+    }
+    .box{
+        display:-moz-box;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:-webkit-flexbox;
+        /*伸缩盒父属性的设置*/
+        display:flex;
+        border:1px solid;
+        margin:20px;
+    }
+    .box1{                        
+        /*定义Flex项目在Flex容器中放置的方向,从左往右。*/
+        -moz-box-orient:block-axis;
+        -moz-box-direction:normal;
+        -webkit-box-orient:block-axis;
+        -webkit-box-direction:normal;
+        flex-direction:row;           
+    }
+    .box2{     
+        /*定义Flex项目在Flex容器中放置的方向，从右往左。*/
+        -moz-box-orient:block-axis;
+        -moz-box-direction:reverse;
+        -webkit-box-orient:block-axis;
+        -webkit-box-direction:reverse;
+        flex-direction:row-reverse;                      
+    }        
+    
+</style>
+</head>
+<body>
+	<div class="box box1">
+	    <div>A</div>
+	    <div>B</div>
+	    <div>C</div>
+	    <div>D</div>
+	</div>
+	<div class="box box2">
+	    <div>A</div>
+	    <div>B</div>
+	    <div>C</div>
+	    <div>D</div>
+	</div>    
+</body>
+</html> 

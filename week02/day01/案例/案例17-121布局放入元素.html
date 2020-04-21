@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*设置内边距和外边距  *表示所有元素*/
+			*{ margin: 0px; padding: 0px;}
+			#container{width: 100%;/* height:600px ; background: red;*/}
+			#header{ width: 100%; height: 100px; background: green;}
+			#main{ width: 80%; height: 500px; background: blue; margin: 0 auto; margin-top: 10px;}
+			#foot { width: 100%;height: 150px; background: blueviolet; margin-top:5px ; text-align: center;}
+			#left{ width: 30%; height: 500px; background: cyan; float: left;}
+			#right{width: 70%; height: 500px; background: cornflowerblue;float: left;}
+			#logo{ height: 100px; width: 100px; background: red; margin-left: 200px;float: left;}
+			#nav{ width: 500px; height: 100px; background: darkred;float: left; margin-left: 100px;}
+		    #nav ul{ list-style: none; }
+		    #nav ul li { float: left; margin-left: 30px; line-height:100px ;}
+		    #adver { height:200px ; width: 100%; background:darkgoldenrod;}
+		    #content {height:200px ; width: 100%; background:blueviolet;}
+		    #netnav { width: 800px; height: 100px; background: lawngreen; position: absolute; top:100px; left: 400px; display: none; line-height: 20px;}
+		    #li1:hover #netnav  { display: block;}
+		</style>
+	</head>
+	<body>
+		<!--布局采用div+css-->
+		<!--容器的开始-->
+		<div id="container">
+			<!--头部的开始-->
+			<div id="header">
+				<div id="logo">
+					<img src="img/10.jpg" />
+				</div>
+				<div id="nav">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#">图片</a></li>
+						<li><a href="#">视频</a></li>
+						<li><a href="#">音频</a></li>
+						<li id="li1">
+							<a href="#">网站导航</a>
+							<div id="netnav">
+								特色主题
+					新品首发京东金融全球售国际站京东会员京东预售台湾售俄语站装机大师0元评测港澳售优惠券秒杀闪购印尼站京东金融科技陪伴计划出海招商拍拍二手买什么
+					行业频道
+					手机智能数码玩3C电脑办公家用电器京鱼座智能京东服饰京东生鲜家装城母婴食品农资频道整车图书劳动防护
+					生活服务
+					京东众筹白条京东金融App京东小金库理财话费水电煤彩票旅行机票酒店电影票京东到家游戏拍拍回收
+					更多精选
+					合作招商京东通信京东E卡企业采购服务市场办公生活馆乡村招募校园加盟京东社区游戏社区知识产权维权
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--头部的结束-->
+			<!--主体的开始-->
+			<div id="main">
+				<div id="left">
+					<div id="adver">
+						<img src="img/10.jpg" width="200px" />
+					</div>
+					<div id="content">
+						杀害更大的市吉打苏丹公司的v啊打算给大伙打官司的的v 阿什顿
+					</div>
+				</div>
+				<div id="right">
+					<img src="img/1.jpg" height="500px"/>
+				</div>
+			</div>
+			<!--主体的结束-->
+			<!--底部的开始-->
+			<div id="foot">
+				<br /><br />
+				版权&copy;归中软国际所有<br />
+				地址：天津市塘沽区<br />
+				电话：022-
+				
+			</div>
+			<!--底部的结束-->
+		</div>
+		<!--容器的结束-->
+	</body>
+</html>
