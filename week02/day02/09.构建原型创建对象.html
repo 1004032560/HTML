@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>构建原型创建对象</title>
+    <script type="text/javascript" charset="UTF-8">
+        function People(id,name){
+            this.id = id;
+            this.name = name;
+        }
+
+        People.prototype.sayHello = function(){
+            alert("你好！我叫："+this.name+"ID是："+this.id);
+        }
+
+        var person = new People(1001,"张三");
+        person.sayHello();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
