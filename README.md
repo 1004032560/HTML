@@ -455,5 +455,6 @@
 
 ## week02
 
-### 1、JavaScript
+### 1、JavaScript基础
 
+### 2、JavaScript语法
