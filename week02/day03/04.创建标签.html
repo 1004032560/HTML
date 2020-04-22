@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建标签</title>
+    <style type="text/css">
+        #div1{
+            border: 1px solid green;
+        }
+    </style>
+    <script type="application/javascript" charset="UTF-8">
+        document.write("<h1>大家好</h1>");
+        function addElement() {
+            //alert("OK");
+            //1.创建标签
+            var fileTest = document.createElement("input");
+            var brTag = document.createElement("br");
+            //2.设置标签属性
+            fileTest.type="file";
+            fileTest.name="photo";
+            //3.插入到指定位置
+            document.getElementById("div1").appendChild(brTag);
+            document.getElementById("div1").appendChild(fileTest);
+        }
+    </script>
+</head>
+<body>
+<div id="div1">
+    <h1>HELLO</h1>
+    <input type="file" name="photo" value="photo">
+</div>
+<input type="button" value="ClickHere" onclick="addElement()">
+</body>
+</html>

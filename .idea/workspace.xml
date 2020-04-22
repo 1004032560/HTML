@@ -83,7 +83,7 @@
       <workItem from="1587348598933" duration="13226000" />
       <workItem from="1587429705971" duration="11544000" />
       <workItem from="1587461308168" duration="3975000" />
-      <workItem from="1587519060682" duration="2648000" />
+      <workItem from="1587519060682" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -400,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587473270960</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="DOM 操作">
+      <created>1587524360872</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1587524360872</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="复选框" />
     <MESSAGE value="文件上传" />
     <MESSAGE value="下拉列表" />
     <MESSAGE value="按钮" />
@@ -445,6 +451,7 @@
     <MESSAGE value="JS-String 方法" />
     <MESSAGE value="注册" />
     <MESSAGE value="HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML" />
+    <MESSAGE value="DOM 操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOM 操作" />
   </component>
 </project>
