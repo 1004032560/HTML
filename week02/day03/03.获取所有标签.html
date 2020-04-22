@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改样式</title>
+    <style type="text/css">
+        #div1{
+            width: 300px;
+            height: 400px;
+            background-color: powderblue;
+        }
+    </style>
+    <script type="application/javascript" charset="UTF-8">
+        function ch() {
+            //1.获取所有标签
+            var arr = document.getElementsByTagName("div");
+            //2.遍历循环所有元素
+            //for (var i=0)
+        }
+
+    </script>
+</head>
+<body>
+<div id="div1">
+    <span id="span1">hello world</span>
+</div>
+<div id="div2">
+    <span id="span2">hello world</span>
+</div>
+<div id="div3">
+    <span id="span3">hello world</span>
+</div>
+<input type="button" value="点击改变内容" onclick="ch()"><br>
+<input type="button" value="点击改变样式" onclick="sty()">
+</body>
+</html>

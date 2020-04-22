@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+    <script type="application/javascript" charset="UTF-8">
+        //声明 XHR 对象
+        var xml;
+
+        //定义创建 XHR 对象的方法
+        function createXHR(){
+            //alert(xml);
+            if (window.ActiveXObject){
+                xml = new ActiveXObject("Microsoft.XMLHTTP");
+            }else if (window.XMLHttpRequest){
+                xml = new XMLHttpRequest();
+            }
+            //alert(xml);
+        }
+        //Define whether the authentication username can be used
+        function checkUsername() {
+            //创建核心对象
+            createXHR();
+
+            //定义服务器的地址
+            var url = "check.json";
+
+            //调用open方法
+            xml.open("GET",url,true);
+
+            //规定回调函数
+            xml.onreadystatechange = callback;
+
+            //发送请求
+            xml.send();
+        }
+
+        function callback() {
+            if (xml.readyState==4 && xml.state==200){
+                alert("可以处理数据");
+                var msg = JSON.parse(xml.responseText).success;
+                alert(msg);
+            }
+        }
+    </script>
+</head>
+<body>
+<form action="#" id="form1" name="form1" method="post">
+    UserName:<input type="text" name="username" id="username" onblur="checkUsername()">
+    PassWord:<input type="password" name="password" id="password" onblur="">
+    ConfirmPassword:<input type="password" name="ConfirmPassword" id="ConfirmPassword" onblur="">
+    <input type="button" value="提交">
+</form>
+</body>
+</html>

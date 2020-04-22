@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>邮箱验证</title>
+    <style type="text/css">
+        #span1,#span2,#span3{
+            color: red;
+        }
+    </style>
+    <script type="application/javascript" charset="UTF-8">
+        function getFocusUsername() {
+            //alert("Ok");
+            //1.获取文本框的值
+            var username = document.getElementById("username").value;
+            var span1 = document.getElementById("span1");
+            if (username==""){
+                span1.innerHTML="用户名不能为空";
+            }else{
+                span1.innerHTML="";
+            }
+        }
+        function getFocusPassword() {
+            //alert("Ok");
+            //1.获取文本框的值
+            var password = document.getElementById("password").value;
+            var span2 = document.getElementById("span2");
+
+            if (password==""){
+                span2.innerHTML="密码不能为空";
+            }
+            else if (password.length<8){
+                span2.innerHTML="密码不能少于8位";
+            }
+            else if (password.length>16){
+                span2.innerHTML="密码不能大于16位";
+            }
+            else{
+                span2.innerHTML="";
+            }
+        }
+        function getFocusEmail() {
+            var email = document.getElementById("email").value;
+            var span3 = document.getElementById("span3");
+
+            if (email==""){
+                span3.innerHTML="密码不能为空";
+            }
+
+            var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+
+            //验证
+            //alert("结果："+reg.test(email));
+            if(!reg.test(email)){
+                document.getElementById("span3").innerText="邮箱格式不正确的！";
+            }else{
+                document.getElementById("span3").innerText="";
+            }
+
+        }
+    </script>
+</head>
+<body>
+Username:<input type="text" name="username" id="username" onblur="getFocusUsername()">
+<span id="span1"></span><br><br>
+Password:<input type="password" name="password" id="password" onblur="getFocusPassword()">
+<span id="span2"></span><br><br>
+Email:<input type="text" name="email" id="email" onblur="getFocusEmail()">
+<span id="span3"></span><br><br>
+</body>
+</html>
