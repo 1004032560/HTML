@@ -83,7 +83,7 @@
       <workItem from="1587348598933" duration="13226000" />
       <workItem from="1587429705971" duration="11544000" />
       <workItem from="1587461308168" duration="3975000" />
-      <workItem from="1587519060682" duration="7072000" />
+      <workItem from="1587519060682" duration="8054000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -421,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587527267679</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="DOM 操作-表单非空验证">
+      <created>1587534098469</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1587534098469</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="按钮" />
     <MESSAGE value="date" />
     <MESSAGE value="搜索框" />
     <MESSAGE value="说明文档" />
@@ -466,6 +472,7 @@
     <MESSAGE value="DOM 操作" />
     <MESSAGE value="DOM 操作-创建标签" />
     <MESSAGE value="DOM 操作-冒泡事件流" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM 操作-冒泡事件流" />
+    <MESSAGE value="DOM 操作-表单非空验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOM 操作-表单非空验证" />
   </component>
 </project>
