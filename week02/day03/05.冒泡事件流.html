@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冒泡事件流</title>
+    <style type="text/css">
+        #div1{
+            width: 400px;
+            height: 400px;
+            background-color: green;
+        }
+        #div2{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+    <script type="application/javascript" charset="UTF-8">
+        function ch1() {
+            alert("div1");
+        }
+        function ch2() {
+            alert("div2");
+        }
+    </script>
+</head>
+<body>
+<div id="div1" onclick="ch1()">
+    <div id="div2" onclick="ch2()">
+
+    </div>
+</div>
+</body>
+</html>

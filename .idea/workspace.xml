@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <workItem from="1587348598933" duration="13226000" />
       <workItem from="1587429705971" duration="11544000" />
       <workItem from="1587461308168" duration="3975000" />
-      <workItem from="1587519060682" duration="3999000" />
+      <workItem from="1587519060682" duration="5381000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -407,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587524360872</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="DOM 操作-创建标签">
+      <created>1587525721928</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1587525721928</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文件上传" />
     <MESSAGE value="下拉列表" />
     <MESSAGE value="按钮" />
     <MESSAGE value="date" />
@@ -452,6 +459,7 @@
     <MESSAGE value="注册" />
     <MESSAGE value="HTML" />
     <MESSAGE value="DOM 操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM 操作" />
+    <MESSAGE value="DOM 操作-创建标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOM 操作-创建标签" />
   </component>
 </project>
