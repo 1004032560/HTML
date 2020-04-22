@@ -83,14 +83,7 @@
       <workItem from="1587348598933" duration="13226000" />
       <workItem from="1587429705971" duration="11544000" />
       <workItem from="1587461308168" duration="3975000" />
-      <workItem from="1587519060682" duration="8054000" />
-    </task>
-    <task id="LOCAL-00001" summary="marquee测试">
-      <created>1586931985782</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1586931985782</updated>
+      <workItem from="1587519060682" duration="8297000" />
     </task>
     <task id="LOCAL-00002" summary="添加小图标">
       <created>1586947317469</created>
@@ -428,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587534098469</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="DOM 操作-表单非空验证-密码验证">
+      <created>1587535128634</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1587535128636</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="date" />
     <MESSAGE value="搜索框" />
     <MESSAGE value="说明文档" />
     <MESSAGE value="div布局" />
@@ -473,6 +472,7 @@
     <MESSAGE value="DOM 操作-创建标签" />
     <MESSAGE value="DOM 操作-冒泡事件流" />
     <MESSAGE value="DOM 操作-表单非空验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM 操作-表单非空验证" />
+    <MESSAGE value="DOM 操作-表单非空验证-密码验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOM 操作-表单非空验证-密码验证" />
   </component>
 </project>

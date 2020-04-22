@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单非空验证</title>
+    <style type="text/css">
+        #span1{
+            color: red;
+        }
+        #span2{
+            color: red;
+        }
+    </style>
+    <script type="application/javascript" charset="UTF-8">
+        function getFocusUsername() {
+            //alert("Ok");
+            //1.获取文本框的值
+            var username = document.getElementById("username").value;
+            var span1 = document.getElementById("span1");
+            if (username==""){
+                span1.innerHTML="用户名不能为空";
+            }else{
+                span1.innerHTML="";
+            }
+        }
+        function getFocusPassword() {
+            //alert("Ok");
+            //1.获取文本框的值
+            var password = document.getElementById("password").value;
+            var span2 = document.getElementById("span2");
+
+            if (password==""){
+                span2.innerHTML="密码不能为空";
+            }
+            else if (password.length<8){
+                span2.innerHTML="密码不能少于8位";
+            }
+            else if (password.length>16){
+                span2.innerHTML="密码不能大于16位";
+            }
+            else{
+                span2.innerHTML="";
+            }
+        }
+    </script>
+</head>
+<body>
+Username:<input type="text" name="username" id="username" onblur="getFocusUsername()">
+<span id="span1"></span><br><br>
+Password:<input type="password" name="username" id="password" onblur="getFocusPassword()">
+<span id="span2"></span>
+</body>
+</html>
