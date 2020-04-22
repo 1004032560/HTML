@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单非空验证</title>
+    <style type="text/css">
+        #span{
+            color: red;
+        }
+    </style>
+    <script type="application/javascript" charset="UTF-8">
+        function getFocus() {
+            //alert("Ok");
+            //1.获取文本框的值
+            var username = document.getElementById("username").value;
+            var span = document.getElementById("span");
+            if (username==""){
+                span.innerHTML="用户名不能为空";
+            }else{
+                span.innerHTML="";
+            }
+        }
+    </script>
+</head>
+<body>
+UserName:<input type="text" name="username" id="username" onblur="getFocus()">
+<span id="span"></span>
+</body>
+</html>
