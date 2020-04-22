@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标事件</title>
+    <style type="text/css">
+        #div2{
+            width: 100px;
+            height: 100px;
+            background-color: darkorchid;
+        }
+        #div21{
+            width: 400px;
+            height: 400px;
+            background-color: powderblue;
+            display: none;
+        }
+    </style>
+    <script type="application/javascript" charset="UTF-8">
+        function show() {
+            document.getElementById("div21").style.display="block";
+        }
+        function hide() {
+            document.getElementById("div21").style.display="none";
+        }
+    </script>
+</head>
+<body>
+    <div id="div2" onmouseover="show()" onmouseout="hide()">
+        网址导航
+    </div>
+    <div id="div21" onmouseover="show()" onmouseout="hide()">
+        腾讯、阿里、百度、头条
+    </div>
+</body>
+</html>
