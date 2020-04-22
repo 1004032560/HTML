@@ -46,11 +46,8 @@
             if (email==""){
                 span3.innerHTML="密码不能为空";
             }
-
             var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
 
-            //验证
-            //alert("结果："+reg.test(email));
             if(!reg.test(email)){
                 document.getElementById("span3").innerText="邮箱格式不正确的！";
             }else{
