@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workSpace/day04017/Test/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/day0417/Test/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workSpace/day04017/Test/HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/day0417/Test/HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workSpace/day04017/Test/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/day0417/Test/work.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workSpace/day04017/work01/work01.html" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/day0417/work01/work01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workSpace/day04017/work02/work02.html" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/day0417/work02/work02.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +82,8 @@
       <workItem from="1587169839859" duration="3025000" />
       <workItem from="1587348598933" duration="13226000" />
       <workItem from="1587429705971" duration="11544000" />
-      <workItem from="1587461308168" duration="3847000" />
+      <workItem from="1587461308168" duration="3975000" />
+      <workItem from="1587519060682" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="marquee测试">
       <created>1586931985782</created>
@@ -383,7 +379,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587466813793</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="注册">
+      <created>1587473219777</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1587473219777</updated>
+    </task>
+    <task id="LOCAL-00044" summary="注册">
+      <created>1587473244202</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1587473244202</updated>
+    </task>
+    <task id="LOCAL-00045" summary="HTML">
+      <created>1587473270960</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1587473270960</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,8 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="单选框" />
-    <MESSAGE value="文本框属性" />
     <MESSAGE value="复选框" />
     <MESSAGE value="文件上传" />
     <MESSAGE value="下拉列表" />
@@ -428,6 +443,8 @@
     <MESSAGE value="JS-闭包" />
     <MESSAGE value="JS-Math方法" />
     <MESSAGE value="JS-String 方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS-String 方法" />
+    <MESSAGE value="注册" />
+    <MESSAGE value="HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML" />
   </component>
 </project>
