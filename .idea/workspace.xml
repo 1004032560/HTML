@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
+    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="jQuery过滤选择器">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,14 +84,7 @@
       <workItem from="1587429705971" duration="11544000" />
       <workItem from="1587461308168" duration="3975000" />
       <workItem from="1587519060682" duration="21019000" />
-      <workItem from="1587605569308" duration="7183000" />
-    </task>
-    <task id="LOCAL-00009" summary="表单">
-      <created>1587032036796</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1587032036796</updated>
+      <workItem from="1587605569308" duration="7545000" />
     </task>
     <task id="LOCAL-00010" summary="表格表单练习">
       <created>1587042125460</created>
@@ -429,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587613888959</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="jQuery过滤选择器">
+      <created>1587622083415</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1587622083416</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="div+css布局" />
     <MESSAGE value="div+css布局案例" />
     <MESSAGE value="JS-弹出对话框" />
     <MESSAGE value="JS-document的write操作" />
@@ -474,6 +473,7 @@
     <MESSAGE value="jQuery" />
     <MESSAGE value="获取jQuery对象" />
     <MESSAGE value="jQuery选择器" />
-    <option name="LAST_COMMIT_MESSAGE" value="jQuery选择器" />
+    <MESSAGE value="jQuery过滤选择器" />
+    <option name="LAST_COMMIT_MESSAGE" value="jQuery过滤选择器" />
   </component>
 </project>

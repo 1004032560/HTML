@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容过滤选择器</title>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" charset="UTF-8">
+        $(document).ready(function() {
+            //根据内容选择
+            //$("div:contains('111')").css("background","red");
+            //根据是否包含 p 标签
+            $("div:has(p)").css("background","red");
+        });
+    </script>
+</head>
+<body>
+<div id="div1">
+    111
+</div>
+<div id="div2">
+    111模块
+</div>
+<div id="div3">
+    333
+    <p>333</p>
+</div>
+
+</body>
+</html>
