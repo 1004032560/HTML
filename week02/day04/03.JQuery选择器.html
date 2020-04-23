@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery选择器</title>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" charset="UTF-8">
+        $(document).ready(function() {
+            //层次选择器-parent child 该方式会将儿子辈和孙子辈都都修改
+            //$("#div1 h1").css("color","red")
+            //层次选择器-parent > child 该方式会将直接的元素（儿子辈）修改
+            //$("#div1 > h1").css("color","red")
+            //层次选择器-prev + next 该方式会将同级别的第一个元素会被修改
+            $("#div1 + h1").css("color","red")
+        });
+    </script>
+</head>
+<body>
+
+<div id="div1">
+    <h1>一级标题-字内容</h1>
+    <h1>一级标题-字内容</h1>
+    <div>
+        <h1>一级标题-孙子辈内容</h1>
+        <h1>一级标题-孙子辈内容</h1>
+    </div>
+</div>
+
+<h1>一级标题-同级内容</h1>
+<h1>一级标题-同级内容</h1>
+
+</body>
+</html>
