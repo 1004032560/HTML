@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,28 +84,7 @@
       <workItem from="1587429705971" duration="11544000" />
       <workItem from="1587461308168" duration="3975000" />
       <workItem from="1587519060682" duration="21019000" />
-      <workItem from="1587605569308" duration="4063000" />
-    </task>
-    <task id="LOCAL-00006" summary="hr标签属性">
-      <created>1586999207904</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1586999207904</updated>
-    </task>
-    <task id="LOCAL-00007" summary="常用标签">
-      <created>1587019918495</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1587019918496</updated>
-    </task>
-    <task id="LOCAL-00008" summary="表格">
-      <created>1587028557908</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1587028557908</updated>
+      <workItem from="1587605569308" duration="7183000" />
     </task>
     <task id="LOCAL-00009" summary="表单">
       <created>1587032036796</created>
@@ -430,7 +408,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587561685970</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="jQuery">
+      <created>1587613848949</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1587613848950</updated>
+    </task>
+    <task id="LOCAL-00056" summary="获取jQuery对象">
+      <created>1587613872027</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1587613872028</updated>
+    </task>
+    <task id="LOCAL-00057" summary="jQuery选择器">
+      <created>1587613888959</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1587613888959</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,9 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="div+css复合选择器" />
-    <MESSAGE value="CSS样式" />
-    <MESSAGE value="CSS样式-定位" />
     <MESSAGE value="div+css布局" />
     <MESSAGE value="div+css布局案例" />
     <MESSAGE value="JS-弹出对话框" />
@@ -475,6 +471,9 @@
     <MESSAGE value="事件-鼠标事件" />
     <MESSAGE value="事件和Ajax" />
     <MESSAGE value="注册页面+表单验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册页面+表单验证" />
+    <MESSAGE value="jQuery" />
+    <MESSAGE value="获取jQuery对象" />
+    <MESSAGE value="jQuery选择器" />
+    <option name="LAST_COMMIT_MESSAGE" value="jQuery选择器" />
   </component>
 </project>
