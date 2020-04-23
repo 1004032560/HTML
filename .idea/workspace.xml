@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week02/day03/08.邮箱验证.html" beforeDir="false" afterPath="$PROJECT_DIR$/week02/day03/08.邮箱验证.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,19 +37,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0421" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day02" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例\img" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017\Test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0421\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day02" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day04017" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day04\js" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0421" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day02" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例\img" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,14 +84,8 @@
       <workItem from="1587348598933" duration="13226000" />
       <workItem from="1587429705971" duration="11544000" />
       <workItem from="1587461308168" duration="3975000" />
-      <workItem from="1587519060682" duration="20843000" />
-    </task>
-    <task id="LOCAL-00005" summary="body属性">
-      <created>1586999146495</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1586999146495</updated>
+      <workItem from="1587519060682" duration="21019000" />
+      <workItem from="1587605569308" duration="4063000" />
     </task>
     <task id="LOCAL-00006" summary="hr标签属性">
       <created>1586999207904</created>
@@ -429,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587555526233</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="注册页面+表单验证">
+      <created>1587561685969</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1587561685970</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="div布局" />
     <MESSAGE value="div+css复合选择器" />
     <MESSAGE value="CSS样式" />
     <MESSAGE value="CSS样式-定位" />
@@ -474,6 +474,7 @@
     <MESSAGE value="DOM 操作-表单非空验证-密码验证" />
     <MESSAGE value="事件-鼠标事件" />
     <MESSAGE value="事件和Ajax" />
-    <option name="LAST_COMMIT_MESSAGE" value="事件和Ajax" />
+    <MESSAGE value="注册页面+表单验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册页面+表单验证" />
   </component>
 </project>
