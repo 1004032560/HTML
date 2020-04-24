@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
+    <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="BootStrap栅格">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,14 +87,7 @@
       <workItem from="1587605569308" duration="14429000" />
       <workItem from="1587688065538" duration="13000" />
       <workItem from="1587689684816" duration="28000" />
-      <workItem from="1587689809496" duration="13439000" />
-    </task>
-    <task id="LOCAL-00019" summary="按钮">
-      <created>1587092727112</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1587092727112</updated>
+      <workItem from="1587689809496" duration="14675000" />
     </task>
     <task id="LOCAL-00020" summary="date">
       <created>1587092751129</created>
@@ -432,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587707430808</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="BootStrap栅格">
+      <created>1587711112518</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1587711112518</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JS-构造原型" />
     <MESSAGE value="JS-闭包" />
     <MESSAGE value="JS-Math方法" />
     <MESSAGE value="JS-String 方法" />
@@ -477,6 +476,7 @@
     <MESSAGE value="jQuery-动画-显示和隐藏" />
     <MESSAGE value="jQuery-自定义动画" />
     <MESSAGE value="jQuery-Ajax" />
-    <option name="LAST_COMMIT_MESSAGE" value="jQuery-Ajax" />
+    <MESSAGE value="BootStrap栅格" />
+    <option name="LAST_COMMIT_MESSAGE" value="BootStrap栅格" />
   </component>
 </project>
