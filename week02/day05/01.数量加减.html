@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数量加减</title>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            $("#but1").on("click",function () {
+                var num = $("#num").val();
+                var total = $("#total").val();
+                var numNew = ++num;
+                var newTotal = parseInt(total)+100;
+                $("#num").val(numNew);
+                $("#total").val(newTotal);
+            });
+        });
+        $(function () {
+            $("#but2").on("click",function () {
+                var num = $("#num").val();
+                var numNew = --num;
+                if (numNew==-1){
+                    alert("库存不足")
+                }else{
+                    $("#num").val(numNew);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+单价：￥100<br>
+<input type="button" id="but1" value="+">
+<input type="text" id="num" value="0">
+<input type="button" id="but2" value="-"><br>
+小计：<input type="text" id="total" value="0">
+
+</body>
+</html>

@@ -31,24 +31,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/workSpace/day0423" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week02/day05" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0423" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day04" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0421\img" />
-      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day02" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day04\js" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0421" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day02" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例\img" />
       <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day01\案例" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day05" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day05\js" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace\day0423" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\workSpace" />
+      <recent name="E:\1.soft\personalNotes\HTML\HTML\week02\day04" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,14 +84,10 @@
       <workItem from="1587429705971" duration="11544000" />
       <workItem from="1587461308168" duration="3975000" />
       <workItem from="1587519060682" duration="21019000" />
-      <workItem from="1587605569308" duration="14106000" />
-    </task>
-    <task id="LOCAL-00014" summary="单选框">
-      <created>1587090156828</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1587090156828</updated>
+      <workItem from="1587605569308" duration="14429000" />
+      <workItem from="1587688065538" duration="13000" />
+      <workItem from="1587689684816" duration="28000" />
+      <workItem from="1587689809496" duration="3469000" />
     </task>
     <task id="LOCAL-00015" summary="文本框属性">
       <created>1587090352094</created>
@@ -429,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587642665947</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="jQuery事件">
+      <created>1587646370778</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1587646370778</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
