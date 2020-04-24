@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <style type="text/css">
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            $("#but1").on("click",function () {
+                $("#div1").animate({
+                    width:"400px",
+                    height:"400px",
+                },3000);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<input type="button" id="but1" value="点击产生动画">
+
+<div id="div1">
+    hello!
+</div>
+
+</body>
+</html>

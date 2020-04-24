@@ -87,14 +87,7 @@
       <workItem from="1587605569308" duration="14429000" />
       <workItem from="1587688065538" duration="13000" />
       <workItem from="1587689684816" duration="28000" />
-      <workItem from="1587689809496" duration="5600000" />
-    </task>
-    <task id="LOCAL-00016" summary="复选框">
-      <created>1587090412991</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1587090412992</updated>
+      <workItem from="1587689809496" duration="6285000" />
     </task>
     <task id="LOCAL-00017" summary="文件上传">
       <created>1587090460081</created>
@@ -432,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587694323240</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="jQuery-动画-显示和隐藏">
+      <created>1587696994100</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1587696994100</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JS-数据类型" />
     <MESSAGE value="JS-数据类型转换" />
     <MESSAGE value="JS-检测数据类型" />
     <MESSAGE value="JS-构造原型" />
@@ -477,6 +476,7 @@
     <MESSAGE value="jQuery表单过滤器" />
     <MESSAGE value="jQuery事件" />
     <MESSAGE value="jQuery-数量加减" />
-    <option name="LAST_COMMIT_MESSAGE" value="jQuery-数量加减" />
+    <MESSAGE value="jQuery-动画-显示和隐藏" />
+    <option name="LAST_COMMIT_MESSAGE" value="jQuery-动画-显示和隐藏" />
   </component>
 </project>
