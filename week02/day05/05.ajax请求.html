@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax请求</title>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            $("#username").blur(function () {
+                $.ajax({
+                    type:"post",
+                    url:"data/check.json",
+                    async:true,
+                    success:function (data) {
+                        alert(data.success)
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<form action="#" id="form1" name="form1" method="post">
+    UserName:<input type="text" name="username" id="username" onblur="checkUsername()">
+    PassWord:<input type="password" name="password" id="password" onblur="">
+    ConfirmPassword:<input type="password" name="ConfirmPassword" id="ConfirmPassword" onblur="">
+    <input type="button" value="提交">
+</form>
+</body>
+</html>

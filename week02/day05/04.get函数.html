@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get函数</title>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            $.getJSON(
+              "data/data.json",
+              //data是服务器返回的结果
+              function (data) {
+                  alert(data.id+":"+data.name);
+              }
+            );
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
