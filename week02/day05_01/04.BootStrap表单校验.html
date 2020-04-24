@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 为了确保适当的绘制和触屏缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BootStrap表单校验</title>
+    <!-- bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- bootstrap 主题文件 -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <style type="text/css">
+    </style>
+    <script>
+        $(function () {
+            $("#username").on("blur",function () {
+                if ($("#username").val()==""){
+                    $("#usernameDiv").addClass("form-group has-error");
+                    $("#usernameLabel").addClass("control-label");
+                    $("#usernameSpan").addClass("glyphicon glyphicon-remove form-control-feedback");
+                }else{
+                    $("#usernameDiv").removeClass("form-group has-error");
+                    $("#usernameLabel").removeClass("control-label");
+                    $("#usernameSpan").removeClass("glyphicon glyphicon-remove form-control-feedback");
+                    $("#usernameDiv").addClass("form-group has-success");
+                    $("#usernameLabel").addClass("control-label");
+                    $("#usernameSpan").addClass("glyphicon glyphicon-ok form-control-feedback");
+                }
+            });
+        });
+        $(function () {
+            $("#password").on("blur",function () {
+                if ($("#password").val()==""){
+                    $("#passwordDiv").addClass("form-group has-error");
+                    $("#passwordLabel").addClass("control-label");
+                    $("#passwordSpan").addClass("glyphicon glyphicon-remove form-control-feedback");
+                }else{
+                    $("#passwordDiv").removeClass("form-group has-error");
+                    $("#passwordLabel").removeClass("control-label");
+                    $("#passwordSpan").removeClass("glyphicon glyphicon-remove form-control-feedback");
+                    $("#passwordDiv").addClass("form-group has-success");
+                    $("#passwordLabel").addClass("control-label");
+                    $("#passwordSpan").addClass("glyphicon glyphicon-ok form-control-feedback");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<form role="form">
+    <div class="form-group has-feedback" id="usernameDiv">
+        <label for="username" id="usernameLabel">Username</label>
+        <input type="email" class="form-control" id="username" placeholder="Enter email">
+        <span id="usernameSpan"></span>
+    </div>
+    <div class="form-group has-feedback" id="passwordDiv">
+        <label for="password" id="passwordLabel">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Password">
+        <span id="passwordSpan"></span>
+    </div>
+</form>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="form-group has-success">
+    <label class="control-label" for="inputSuccess1">Username</label>
+    <input type="text" class="form-control" id="inputSuccess1">
+</div>
+<div class="form-group has-warning">
+    <label class="control-label" for="inputWarning1">Input with warning</label>
+    <input type="text" class="form-control" id="inputWarning1">
+</div>
+<div class="form-group has-error">
+    <label class="control-label" for="inputError1">Input with error</label>
+    <input type="text" class="form-control" id="inputError1">
+</div>
+
+</body>
+</html>
