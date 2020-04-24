@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示和隐藏</title>
+    <style type="text/css">
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            $("#but1").on("click",function () {
+                //方式一：
+                //$("#div1").css("display","block");
+                //方式二：
+                $("#div1").toggle(1000);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<input type="button" id="but1" value="点击显示div元素">
+
+<div id="div1">
+    hello!
+</div>
+
+</body>
+</html>
