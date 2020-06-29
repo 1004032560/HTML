@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ImitatingMI/images/icon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImitatingMI/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week02/day05_01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -91,14 +88,10 @@
       <workItem from="1587688065538" duration="13000" />
       <workItem from="1587689684816" duration="28000" />
       <workItem from="1587689809496" duration="26945000" />
-      <workItem from="1587905588303" duration="872000" />
-    </task>
-    <task id="LOCAL-00026" summary="div+css复合选择器">
-      <created>1587170716993</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1587170716993</updated>
+      <workItem from="1587905588303" duration="1641000" />
+      <workItem from="1587978812147" duration="1025000" />
+      <workItem from="1589595839720" duration="1323000" />
+      <workItem from="1589606489499" duration="1219000" />
     </task>
     <task id="LOCAL-00027" summary="div+css复合选择器">
       <created>1587172840016</created>
@@ -436,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587729778249</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="update">
+      <created>1587906664914</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1587906664916</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DOM 操作-创建标签" />
     <MESSAGE value="DOM 操作-冒泡事件流" />
     <MESSAGE value="DOM 操作-表单非空验证" />
     <MESSAGE value="DOM 操作-表单非空验证-密码验证" />
@@ -481,6 +480,7 @@
     <MESSAGE value="BootStrap轮播图" />
     <MESSAGE value="image" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
