@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="107388e8-5538-444e-ad01-3f3c6d1da906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week02/day05_01/04.BootStrap表单校验.html" beforeDir="false" afterPath="$PROJECT_DIR$/week02/day05_01/04.BootStrap表单校验.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,14 +92,7 @@
       <workItem from="1587978812147" duration="1025000" />
       <workItem from="1589595839720" duration="1323000" />
       <workItem from="1589606489499" duration="1219000" />
-      <workItem from="1593510088593" duration="844000" />
-    </task>
-    <task id="LOCAL-00027" summary="div+css复合选择器">
-      <created>1587172840016</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1587172840016</updated>
+      <workItem from="1593510088593" duration="2056000" />
     </task>
     <task id="LOCAL-00028" summary="CSS样式">
       <created>1587352532443</created>
@@ -438,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587906664916</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="update">
+      <created>1593521893100</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1593521893102</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
