@@ -1,8 +1,6 @@
 ## 1、VUE
 
-
-
-
+Vue 是一套用于构建用户界面的**渐进式框架**。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。
 
 <br>
 
@@ -34,13 +32,15 @@ ViewModel：V 和 M 之间的调用者，做中间处理，是 MVVM 的核心思
 		<div id="app" >
 			<!-- 插值表达式 -->
 			{{msg}}
+            <p v-html="msg">123456</p>
+			<p v-text="msg" v-bind:title="msg">456789</p>
 		</div>
 		<!-- 3.在 JavaScript 中创建 Vue 对象 -->
 		<script type="text/javascript">
 			var vm = new Vue({
 				el:'#app',    //挂载 div 
 				data:{    //Vue 实例的数据对象 Model
-					msg:'Hello World!'
+					msg:'<h2>Hello World!</h2>'
 				}
 			})
 		</script>
@@ -48,3 +48,18 @@ ViewModel：V 和 M 之间的调用者，做中间处理，是 MVVM 的核心思
 </html>
 ~~~
 
+<br>
+
+## 4、插值表达式和指令
+
+相同：
+
+都会将数据显示出来
+
+不同：
+
+`{{msg}}`：插值表达式，位置不同
+
+`v-text="msg"`：会覆盖标签之前的内容，不能识别 msg 中的 HTML 标签
+
+`v-html="msg"`：会覆盖标签之前的内容，也可以识别 msg 中的 HTML 标签
