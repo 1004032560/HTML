@@ -10,7 +10,19 @@ Node.js 是 js 运行时的环境，类比于 Java 中的 JVM。
 
 ES6 是 ECMAScript 6.0 的简称，是 JavaScript 语言的下一代标准，他的目标是使得 JavaScript 语言可以用来编写大型的应用程序。
 
+<br>
 
+### 1.3、ES6语法
+
+1、变量的声明 let 和 const
+
+2、变量/对象/字符串的结构赋值
+
+3、字符串的扩展
+
+4、箭头函数
+
+<br>
 
 ## 2、安装Node.js
 
@@ -47,13 +59,22 @@ console.log(flag);
 
 ## 4、重复定义
 
-
+var 可以重复定义
 
 ~~~javascript
-//let flag = true;
-//let flag = false;
 var flag = true;
 var flag = false;
+console.log(flag);
+console.log(flag);
+~~~
+
+<br>
+
+let 不可以重复定义
+
+~~~javascript
+let flag = true;
+let flag = false;
 console.log(flag);
 console.log(flag);
 ~~~
@@ -287,18 +308,52 @@ arr.forEach((item,i)=>{
 
 ## 10、计算属性
 
+computed 计算属性，可以定义一些属性，本质上是一个方法。
 
+在使用计算属性的时候，会把他当作属性去使用，并不是像方法那样调用。
+
+注意： 
+
+1、计算属性在引用的时候，一定不要加 ()，直接当作普通属性使用
+
+2、只要在计算属性方法内部，用到的 data 中的数据发生变化，就会重新计算属性的值
+
+3、计算属性求值的结果，会被缓存起来，方便下次使用，如果计算属性方法中所依赖的任何数据都没有发生变化，不会重新计算求值
 
 <br>
 
-
-
-<br>
-
-
-
-<br>
-
-
+~~~html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="app">
+			<input type="text" v-model="name1" />
+			+
+			<input type="text" v-model="name2" />
+			=
+			<span>{{result}}</span>
+		</div>
+		<script>
+			var vm = new Vue({
+				el:"#app",
+				data:{
+					name1:'',
+					name2:'',
+				},
+				computed:{
+					'result'(){
+						return this.name1 + this.name2;
+					}
+				}
+			})
+		</script>
+	</body>
+</html>
+~~~
 
 <br>
