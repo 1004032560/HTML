@@ -1,5 +1,7 @@
 ## 1、Vue生命周期
 
+从 Vue 实例创建、运行、到销毁的期间，伴随这各种事件，这些事件统称为生命周期。
+
 生命周期函数不能写到 methods 中，写在与 methods 平级的位置。
 
 ![lifecycle.png](image/lifecycle.png)
