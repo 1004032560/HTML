@@ -4,7 +4,9 @@
 * delete 传参
 * post 传参
 
+* put 传参（与 post 差不多）
 
+<br>
 
 ### 1.1、post
 
@@ -89,3 +91,24 @@ public String add(User user){
 
 ## 2、axios的响应结果
 
+* data：数据
+
+* status：状态码，正常返回200
+
+* statusText：状态描述信息
+
+* headers：响应头
+
+<br>
+
+<br>
+
+## 3、axios全局配置
+
+* 设置默认超时时间：`axios.defaults.timeout=3000`
+
+* 设置默认地址：`axios.defaults.baseURL='http://localhost:8080'`
+
+* 设置请求头：`axios.defaults.headers['mytoken'] = 'qwertyu'`
+
+<br>
