@@ -19,4 +19,22 @@ Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js �
 
 <br>
 
-### 1.3、使用
+### 1.3、使用案例
+
+~~~javascript
+methods:{
+    getList(curPage){
+        axios.get("http://localhost:8080/student/list?curPage="+curPage+"&name="+this.name)
+        .then((resp)=>{
+            this.page = resp.data.page
+        })
+    },
+    save() {
+        var student = new FormData(document.getElementById("form2"));
+        axios.post('http://localhost:8080/student/add', student)
+            .then(function(response) {});
+        window.location.href = '/0818-student/list.html';
+    }
+}
+~~~
+
